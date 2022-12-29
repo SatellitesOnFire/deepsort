@@ -16,8 +16,8 @@ import seaborn as sn
 import torch
 from PIL import Image, ImageDraw, ImageFont
 
-from utils.general import user_config_dir, is_ascii, xywh2xyxy, xyxy2xywh
-from utils.metrics import fitness
+from .general import user_config_dir, is_ascii, xywh2xyxy, xyxy2xywh
+from .metrics import fitness
 
 # Settings
 CONFIG_DIR = user_config_dir()  # Ultralytics settings dir
